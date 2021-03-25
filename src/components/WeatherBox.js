@@ -53,7 +53,7 @@ function WeatherBox() {
 
     return (
         <div className="weatherBox">
-            <SearchField onPress ={ (city) => setUrl(`${BASE_URL}data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`) } />
+            <SearchField onPress ={ (city) => setUrl(`${BASE_URL}data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`) } onClick={(city) => setUrl(`${BASE_URL}data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`)} />
             { getContent() }
         </div>
     )
