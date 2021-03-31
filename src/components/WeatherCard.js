@@ -14,6 +14,6 @@ function WeatherCard({ Name, icon, description, temp, daTi }) {
             <h2> {temp} &deg;C</h2>
         </div>
     )
-}
+} 
 
 export default WeatherCard;

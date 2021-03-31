@@ -1,4 +1,3 @@
-import './App.css';
 import WeatherBox from "./components/WeatherBox";
 
 function App() {

@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 
-function SearchField({ onPress, onClick }) {
+function SearchField({ onPress }) {
 
     const [city, setCity] = useState('');
 
@@ -20,7 +20,7 @@ function SearchField({ onPress, onClick }) {
             }
              />
              {city && <button className="searchBtn" onClick={(e) => {
-                onClick(city);
+                onPress(city);
                 setCity('')
              }}>Search</button>}
         </>
