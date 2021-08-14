@@ -1,3 +1,8 @@
+![image](https://user-images.githubusercontent.com/56362836/129461403-e19625fa-e467-40ea-bd6f-f0feb26b27a9.png)
+
+This application uses weather information recieved from the [openweathermap](https://openweathermap.org/) to display weather information about any city that is placed in the search bar.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
